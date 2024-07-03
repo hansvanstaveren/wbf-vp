@@ -1,0 +1,2385 @@
+<BridgeItScoreCalculationXMLReaderWriter.Container xmlns="http://schemas.datacontract.org/2004/07/ScoreCalculationDataservingImplementation" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <_maxImps>999</_maxImps>
+  <_maxNumberOfBoards>32</_maxNumberOfBoards>
+  <_minImps>0</_minImps>
+  <_minNumberOfboards>6</_minNumberOfboards>
+  
+  <_vpTable xmlns:a="http://schemas.datacontract.org/2004/07/ScoreCalculationTypes">
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>0</a:_impsUpper>
+      <a:_numberOfBoardsLower>6</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>6</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>1</a:_impsLower>
+      <a:_impsUpper>2</a:_impsUpper>
+      <a:_numberOfBoardsLower>6</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>6</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>3</a:_impsLower>
+      <a:_impsUpper>4</a:_impsUpper>
+      <a:_numberOfBoardsLower>6</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>6</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>5</a:_impsLower>
+      <a:_impsUpper>7</a:_impsUpper>
+      <a:_numberOfBoardsLower>6</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>6</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>8</a:_impsLower>
+      <a:_impsUpper>10</a:_impsUpper>
+      <a:_numberOfBoardsLower>6</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>6</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>11</a:_impsLower>
+      <a:_impsUpper>13</a:_impsUpper>
+      <a:_numberOfBoardsLower>6</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>6</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>14</a:_impsLower>
+      <a:_impsUpper>17</a:_impsUpper>
+      <a:_numberOfBoardsLower>6</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>6</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>18</a:_impsLower>
+      <a:_impsUpper>21</a:_impsUpper>
+      <a:_numberOfBoardsLower>6</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>6</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>22</a:_impsLower>
+      <a:_impsUpper>26</a:_impsUpper>
+      <a:_numberOfBoardsLower>6</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>6</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>27</a:_impsLower>
+      <a:_impsUpper>32</a:_impsUpper>
+      <a:_numberOfBoardsLower>6</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>6</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>33</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>6</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>6</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>0</a:_impsUpper>
+      <a:_numberOfBoardsLower>7</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>7</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>1</a:_impsLower>
+      <a:_impsUpper>2</a:_impsUpper>
+      <a:_numberOfBoardsLower>7</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>7</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>3</a:_impsLower>
+      <a:_impsUpper>5</a:_impsUpper>
+      <a:_numberOfBoardsLower>7</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>7</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>6</a:_impsLower>
+      <a:_impsUpper>8</a:_impsUpper>
+      <a:_numberOfBoardsLower>7</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>7</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>9</a:_impsLower>
+      <a:_impsUpper>11</a:_impsUpper>
+      <a:_numberOfBoardsLower>7</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>7</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>12</a:_impsLower>
+      <a:_impsUpper>14</a:_impsUpper>
+      <a:_numberOfBoardsLower>7</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>7</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>15</a:_impsLower>
+      <a:_impsUpper>18</a:_impsUpper>
+      <a:_numberOfBoardsLower>7</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>7</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>19</a:_impsLower>
+      <a:_impsUpper>23</a:_impsUpper>
+      <a:_numberOfBoardsLower>7</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>7</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>24</a:_impsLower>
+      <a:_impsUpper>28</a:_impsUpper>
+      <a:_numberOfBoardsLower>7</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>7</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>29</a:_impsLower>
+      <a:_impsUpper>35</a:_impsUpper>
+      <a:_numberOfBoardsLower>7</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>7</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>36</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>7</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>7</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>0</a:_impsUpper>
+      <a:_numberOfBoardsLower>8</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>8</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>1</a:_impsLower>
+      <a:_impsUpper>3</a:_impsUpper>
+      <a:_numberOfBoardsLower>8</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>8</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>4</a:_impsLower>
+      <a:_impsUpper>6</a:_impsUpper>
+      <a:_numberOfBoardsLower>8</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>8</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>7</a:_impsLower>
+      <a:_impsUpper>9</a:_impsUpper>
+      <a:_numberOfBoardsLower>8</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>8</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>10</a:_impsLower>
+      <a:_impsUpper>12</a:_impsUpper>
+      <a:_numberOfBoardsLower>8</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>8</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>13</a:_impsLower>
+      <a:_impsUpper>16</a:_impsUpper>
+      <a:_numberOfBoardsLower>8</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>8</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>17</a:_impsLower>
+      <a:_impsUpper>20</a:_impsUpper>
+      <a:_numberOfBoardsLower>8</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>8</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>21</a:_impsLower>
+      <a:_impsUpper>25</a:_impsUpper>
+      <a:_numberOfBoardsLower>8</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>8</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>26</a:_impsLower>
+      <a:_impsUpper>30</a:_impsUpper>
+      <a:_numberOfBoardsLower>8</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>8</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>31</a:_impsLower>
+      <a:_impsUpper>38</a:_impsUpper>
+      <a:_numberOfBoardsLower>8</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>8</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>39</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>8</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>8</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>0</a:_impsUpper>
+      <a:_numberOfBoardsLower>9</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>9</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>1</a:_impsLower>
+      <a:_impsUpper>3</a:_impsUpper>
+      <a:_numberOfBoardsLower>9</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>9</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>4</a:_impsLower>
+      <a:_impsUpper>6</a:_impsUpper>
+      <a:_numberOfBoardsLower>9</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>9</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>7</a:_impsLower>
+      <a:_impsUpper>9</a:_impsUpper>
+      <a:_numberOfBoardsLower>9</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>9</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>10</a:_impsLower>
+      <a:_impsUpper>12</a:_impsUpper>
+      <a:_numberOfBoardsLower>9</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>9</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>13</a:_impsLower>
+      <a:_impsUpper>16</a:_impsUpper>
+      <a:_numberOfBoardsLower>9</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>9</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>17</a:_impsLower>
+      <a:_impsUpper>21</a:_impsUpper>
+      <a:_numberOfBoardsLower>9</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>9</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>22</a:_impsLower>
+      <a:_impsUpper>26</a:_impsUpper>
+      <a:_numberOfBoardsLower>9</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>9</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>27</a:_impsLower>
+      <a:_impsUpper>32</a:_impsUpper>
+      <a:_numberOfBoardsLower>9</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>9</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>33</a:_impsLower>
+      <a:_impsUpper>40</a:_impsUpper>
+      <a:_numberOfBoardsLower>9</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>9</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>41</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>9</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>9</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>0</a:_impsUpper>
+      <a:_numberOfBoardsLower>10</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>10</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>1</a:_impsLower>
+      <a:_impsUpper>3</a:_impsUpper>
+      <a:_numberOfBoardsLower>10</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>10</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>4</a:_impsLower>
+      <a:_impsUpper>6</a:_impsUpper>
+      <a:_numberOfBoardsLower>10</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>10</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>7</a:_impsLower>
+      <a:_impsUpper>9</a:_impsUpper>
+      <a:_numberOfBoardsLower>10</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>10</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>10</a:_impsLower>
+      <a:_impsUpper>13</a:_impsUpper>
+      <a:_numberOfBoardsLower>10</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>10</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>14</a:_impsLower>
+      <a:_impsUpper>17</a:_impsUpper>
+      <a:_numberOfBoardsLower>10</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>10</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>18</a:_impsLower>
+      <a:_impsUpper>22</a:_impsUpper>
+      <a:_numberOfBoardsLower>10</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>10</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>23</a:_impsLower>
+      <a:_impsUpper>27</a:_impsUpper>
+      <a:_numberOfBoardsLower>10</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>10</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>28</a:_impsLower>
+      <a:_impsUpper>34</a:_impsUpper>
+      <a:_numberOfBoardsLower>10</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>10</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>35</a:_impsLower>
+      <a:_impsUpper>42</a:_impsUpper>
+      <a:_numberOfBoardsLower>10</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>10</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>43</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>10</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>10</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>11</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>11</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>4</a:_impsUpper>
+      <a:_numberOfBoardsLower>11</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>11</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>5</a:_impsLower>
+      <a:_impsUpper>7</a:_impsUpper>
+      <a:_numberOfBoardsLower>11</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>11</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>8</a:_impsLower>
+      <a:_impsUpper>10</a:_impsUpper>
+      <a:_numberOfBoardsLower>11</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>11</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>11</a:_impsLower>
+      <a:_impsUpper>14</a:_impsUpper>
+      <a:_numberOfBoardsLower>11</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>11</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>15</a:_impsLower>
+      <a:_impsUpper>18</a:_impsUpper>
+      <a:_numberOfBoardsLower>11</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>11</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>19</a:_impsLower>
+      <a:_impsUpper>23</a:_impsUpper>
+      <a:_numberOfBoardsLower>11</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>11</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>24</a:_impsLower>
+      <a:_impsUpper>29</a:_impsUpper>
+      <a:_numberOfBoardsLower>11</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>11</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>30</a:_impsLower>
+      <a:_impsUpper>36</a:_impsUpper>
+      <a:_numberOfBoardsLower>11</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>11</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>37</a:_impsLower>
+      <a:_impsUpper>44</a:_impsUpper>
+      <a:_numberOfBoardsLower>11</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>11</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>45</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>11</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>11</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>12</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>12</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>4</a:_impsUpper>
+      <a:_numberOfBoardsLower>12</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>12</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>5</a:_impsLower>
+      <a:_impsUpper>7</a:_impsUpper>
+      <a:_numberOfBoardsLower>12</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>12</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>8</a:_impsLower>
+      <a:_impsUpper>11</a:_impsUpper>
+      <a:_numberOfBoardsLower>12</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>12</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>12</a:_impsLower>
+      <a:_impsUpper>15</a:_impsUpper>
+      <a:_numberOfBoardsLower>12</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>12</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>16</a:_impsLower>
+      <a:_impsUpper>19</a:_impsUpper>
+      <a:_numberOfBoardsLower>12</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>12</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>20</a:_impsLower>
+      <a:_impsUpper>24</a:_impsUpper>
+      <a:_numberOfBoardsLower>12</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>12</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>25</a:_impsLower>
+      <a:_impsUpper>30</a:_impsUpper>
+      <a:_numberOfBoardsLower>12</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>12</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>31</a:_impsLower>
+      <a:_impsUpper>37</a:_impsUpper>
+      <a:_numberOfBoardsLower>12</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>12</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>38</a:_impsLower>
+      <a:_impsUpper>46</a:_impsUpper>
+      <a:_numberOfBoardsLower>12</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>12</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>47</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>12</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>12</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>13</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>13</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>4</a:_impsUpper>
+      <a:_numberOfBoardsLower>13</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>13</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>5</a:_impsLower>
+      <a:_impsUpper>7</a:_impsUpper>
+      <a:_numberOfBoardsLower>13</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>13</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>8</a:_impsLower>
+      <a:_impsUpper>11</a:_impsUpper>
+      <a:_numberOfBoardsLower>13</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>13</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>12</a:_impsLower>
+      <a:_impsUpper>15</a:_impsUpper>
+      <a:_numberOfBoardsLower>13</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>13</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>16</a:_impsLower>
+      <a:_impsUpper>20</a:_impsUpper>
+      <a:_numberOfBoardsLower>13</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>13</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>21</a:_impsLower>
+      <a:_impsUpper>25</a:_impsUpper>
+      <a:_numberOfBoardsLower>13</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>13</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>26</a:_impsLower>
+      <a:_impsUpper>31</a:_impsUpper>
+      <a:_numberOfBoardsLower>13</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>13</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>32</a:_impsLower>
+      <a:_impsUpper>39</a:_impsUpper>
+      <a:_numberOfBoardsLower>13</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>13</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>40</a:_impsLower>
+      <a:_impsUpper>48</a:_impsUpper>
+      <a:_numberOfBoardsLower>13</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>13</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>49</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>13</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>13</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>14</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>14</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>4</a:_impsUpper>
+      <a:_numberOfBoardsLower>14</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>14</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>5</a:_impsLower>
+      <a:_impsUpper>8</a:_impsUpper>
+      <a:_numberOfBoardsLower>14</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>14</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>9</a:_impsLower>
+      <a:_impsUpper>12</a:_impsUpper>
+      <a:_numberOfBoardsLower>14</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>14</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>13</a:_impsLower>
+      <a:_impsUpper>16</a:_impsUpper>
+      <a:_numberOfBoardsLower>14</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>14</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>17</a:_impsLower>
+      <a:_impsUpper>21</a:_impsUpper>
+      <a:_numberOfBoardsLower>14</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>14</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>22</a:_impsLower>
+      <a:_impsUpper>26</a:_impsUpper>
+      <a:_numberOfBoardsLower>14</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>14</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>27</a:_impsLower>
+      <a:_impsUpper>33</a:_impsUpper>
+      <a:_numberOfBoardsLower>14</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>14</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>34</a:_impsLower>
+      <a:_impsUpper>40</a:_impsUpper>
+      <a:_numberOfBoardsLower>14</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>14</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>41</a:_impsLower>
+      <a:_impsUpper>50</a:_impsUpper>
+      <a:_numberOfBoardsLower>14</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>14</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>51</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>14</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>14</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>15</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>15</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>4</a:_impsUpper>
+      <a:_numberOfBoardsLower>15</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>15</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>5</a:_impsLower>
+      <a:_impsUpper>8</a:_impsUpper>
+      <a:_numberOfBoardsLower>15</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>15</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>9</a:_impsLower>
+      <a:_impsUpper>12</a:_impsUpper>
+      <a:_numberOfBoardsLower>15</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>15</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>13</a:_impsLower>
+      <a:_impsUpper>16</a:_impsUpper>
+      <a:_numberOfBoardsLower>15</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>15</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>17</a:_impsLower>
+      <a:_impsUpper>21</a:_impsUpper>
+      <a:_numberOfBoardsLower>15</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>15</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>22</a:_impsLower>
+      <a:_impsUpper>27</a:_impsUpper>
+      <a:_numberOfBoardsLower>15</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>15</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>28</a:_impsLower>
+      <a:_impsUpper>34</a:_impsUpper>
+      <a:_numberOfBoardsLower>15</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>15</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>35</a:_impsLower>
+      <a:_impsUpper>42</a:_impsUpper>
+      <a:_numberOfBoardsLower>15</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>15</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>43</a:_impsLower>
+      <a:_impsUpper>52</a:_impsUpper>
+      <a:_numberOfBoardsLower>15</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>15</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>53</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>15</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>15</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>16</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>16</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>4</a:_impsUpper>
+      <a:_numberOfBoardsLower>16</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>16</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>5</a:_impsLower>
+      <a:_impsUpper>8</a:_impsUpper>
+      <a:_numberOfBoardsLower>16</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>16</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>9</a:_impsLower>
+      <a:_impsUpper>12</a:_impsUpper>
+      <a:_numberOfBoardsLower>16</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>16</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>13</a:_impsLower>
+      <a:_impsUpper>17</a:_impsUpper>
+      <a:_numberOfBoardsLower>16</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>16</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>18</a:_impsLower>
+      <a:_impsUpper>22</a:_impsUpper>
+      <a:_numberOfBoardsLower>16</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>16</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>23</a:_impsLower>
+      <a:_impsUpper>28</a:_impsUpper>
+      <a:_numberOfBoardsLower>16</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>16</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>29</a:_impsLower>
+      <a:_impsUpper>35</a:_impsUpper>
+      <a:_numberOfBoardsLower>16</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>16</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>36</a:_impsLower>
+      <a:_impsUpper>43</a:_impsUpper>
+      <a:_numberOfBoardsLower>16</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>16</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>44</a:_impsLower>
+      <a:_impsUpper>53</a:_impsUpper>
+      <a:_numberOfBoardsLower>16</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>16</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>54</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>16</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>16</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>17</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>17</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>5</a:_impsUpper>
+      <a:_numberOfBoardsLower>17</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>17</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>6</a:_impsLower>
+      <a:_impsUpper>9</a:_impsUpper>
+      <a:_numberOfBoardsLower>17</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>17</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>10</a:_impsLower>
+      <a:_impsUpper>13</a:_impsUpper>
+      <a:_numberOfBoardsLower>17</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>17</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>14</a:_impsLower>
+      <a:_impsUpper>18</a:_impsUpper>
+      <a:_numberOfBoardsLower>17</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>17</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>19</a:_impsLower>
+      <a:_impsUpper>23</a:_impsUpper>
+      <a:_numberOfBoardsLower>17</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>17</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>24</a:_impsLower>
+      <a:_impsUpper>29</a:_impsUpper>
+      <a:_numberOfBoardsLower>17</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>17</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>30</a:_impsLower>
+      <a:_impsUpper>36</a:_impsUpper>
+      <a:_numberOfBoardsLower>17</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>17</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>37</a:_impsLower>
+      <a:_impsUpper>44</a:_impsUpper>
+      <a:_numberOfBoardsLower>17</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>17</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>45</a:_impsLower>
+      <a:_impsUpper>55</a:_impsUpper>
+      <a:_numberOfBoardsLower>17</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>17</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>56</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>17</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>17</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>18</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>18</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>5</a:_impsUpper>
+      <a:_numberOfBoardsLower>18</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>18</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>6</a:_impsLower>
+      <a:_impsUpper>9</a:_impsUpper>
+      <a:_numberOfBoardsLower>18</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>18</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>10</a:_impsLower>
+      <a:_impsUpper>13</a:_impsUpper>
+      <a:_numberOfBoardsLower>18</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>18</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>14</a:_impsLower>
+      <a:_impsUpper>18</a:_impsUpper>
+      <a:_numberOfBoardsLower>18</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>18</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>19</a:_impsLower>
+      <a:_impsUpper>24</a:_impsUpper>
+      <a:_numberOfBoardsLower>18</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>18</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>25</a:_impsLower>
+      <a:_impsUpper>30</a:_impsUpper>
+      <a:_numberOfBoardsLower>18</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>18</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>31</a:_impsLower>
+      <a:_impsUpper>37</a:_impsUpper>
+      <a:_numberOfBoardsLower>18</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>18</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>38</a:_impsLower>
+      <a:_impsUpper>46</a:_impsUpper>
+      <a:_numberOfBoardsLower>18</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>18</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>47</a:_impsLower>
+      <a:_impsUpper>57</a:_impsUpper>
+      <a:_numberOfBoardsLower>18</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>18</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>58</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>18</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>18</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>19</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>19</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>5</a:_impsUpper>
+      <a:_numberOfBoardsLower>19</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>19</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>6</a:_impsLower>
+      <a:_impsUpper>9</a:_impsUpper>
+      <a:_numberOfBoardsLower>19</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>19</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>10</a:_impsLower>
+      <a:_impsUpper>14</a:_impsUpper>
+      <a:_numberOfBoardsLower>19</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>19</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>15</a:_impsLower>
+      <a:_impsUpper>19</a:_impsUpper>
+      <a:_numberOfBoardsLower>19</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>19</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>20</a:_impsLower>
+      <a:_impsUpper>24</a:_impsUpper>
+      <a:_numberOfBoardsLower>19</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>19</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>25</a:_impsLower>
+      <a:_impsUpper>31</a:_impsUpper>
+      <a:_numberOfBoardsLower>19</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>19</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>32</a:_impsLower>
+      <a:_impsUpper>38</a:_impsUpper>
+      <a:_numberOfBoardsLower>19</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>19</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>39</a:_impsLower>
+      <a:_impsUpper>47</a:_impsUpper>
+      <a:_numberOfBoardsLower>19</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>19</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>48</a:_impsLower>
+      <a:_impsUpper>58</a:_impsUpper>
+      <a:_numberOfBoardsLower>19</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>19</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>59</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>19</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>19</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>20</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>20</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>5</a:_impsUpper>
+      <a:_numberOfBoardsLower>20</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>20</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>6</a:_impsLower>
+      <a:_impsUpper>9</a:_impsUpper>
+      <a:_numberOfBoardsLower>20</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>20</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>10</a:_impsLower>
+      <a:_impsUpper>14</a:_impsUpper>
+      <a:_numberOfBoardsLower>20</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>20</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>15</a:_impsLower>
+      <a:_impsUpper>19</a:_impsUpper>
+      <a:_numberOfBoardsLower>20</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>20</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>20</a:_impsLower>
+      <a:_impsUpper>25</a:_impsUpper>
+      <a:_numberOfBoardsLower>20</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>20</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>26</a:_impsLower>
+      <a:_impsUpper>31</a:_impsUpper>
+      <a:_numberOfBoardsLower>20</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>20</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>32</a:_impsLower>
+      <a:_impsUpper>39</a:_impsUpper>
+      <a:_numberOfBoardsLower>20</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>20</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>40</a:_impsLower>
+      <a:_impsUpper>48</a:_impsUpper>
+      <a:_numberOfBoardsLower>20</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>20</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>49</a:_impsLower>
+      <a:_impsUpper>60</a:_impsUpper>
+      <a:_numberOfBoardsLower>20</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>20</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>61</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>20</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>20</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>21</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>21</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>5</a:_impsUpper>
+      <a:_numberOfBoardsLower>21</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>21</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>6</a:_impsLower>
+      <a:_impsUpper>9</a:_impsUpper>
+      <a:_numberOfBoardsLower>21</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>21</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>10</a:_impsLower>
+      <a:_impsUpper>14</a:_impsUpper>
+      <a:_numberOfBoardsLower>21</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>21</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>15</a:_impsLower>
+      <a:_impsUpper>19</a:_impsUpper>
+      <a:_numberOfBoardsLower>21</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>21</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>20</a:_impsLower>
+      <a:_impsUpper>25</a:_impsUpper>
+      <a:_numberOfBoardsLower>21</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>21</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>26</a:_impsLower>
+      <a:_impsUpper>32</a:_impsUpper>
+      <a:_numberOfBoardsLower>21</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>21</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>33</a:_impsLower>
+      <a:_impsUpper>40</a:_impsUpper>
+      <a:_numberOfBoardsLower>21</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>21</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>41</a:_impsLower>
+      <a:_impsUpper>49</a:_impsUpper>
+      <a:_numberOfBoardsLower>21</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>21</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>50</a:_impsLower>
+      <a:_impsUpper>61</a:_impsUpper>
+      <a:_numberOfBoardsLower>21</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>21</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>62</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>21</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>21</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>22</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>22</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>5</a:_impsUpper>
+      <a:_numberOfBoardsLower>22</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>22</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>6</a:_impsLower>
+      <a:_impsUpper>10</a:_impsUpper>
+      <a:_numberOfBoardsLower>22</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>22</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>11</a:_impsLower>
+      <a:_impsUpper>15</a:_impsUpper>
+      <a:_numberOfBoardsLower>22</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>22</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>16</a:_impsLower>
+      <a:_impsUpper>20</a:_impsUpper>
+      <a:_numberOfBoardsLower>22</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>22</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>21</a:_impsLower>
+      <a:_impsUpper>26</a:_impsUpper>
+      <a:_numberOfBoardsLower>22</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>22</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>27</a:_impsLower>
+      <a:_impsUpper>33</a:_impsUpper>
+      <a:_numberOfBoardsLower>22</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>22</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>34</a:_impsLower>
+      <a:_impsUpper>41</a:_impsUpper>
+      <a:_numberOfBoardsLower>22</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>22</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>42</a:_impsLower>
+      <a:_impsUpper>51</a:_impsUpper>
+      <a:_numberOfBoardsLower>22</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>22</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>52</a:_impsLower>
+      <a:_impsUpper>63</a:_impsUpper>
+      <a:_numberOfBoardsLower>22</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>22</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>64</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>22</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>22</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>23</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>23</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>5</a:_impsUpper>
+      <a:_numberOfBoardsLower>23</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>23</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>6</a:_impsLower>
+      <a:_impsUpper>10</a:_impsUpper>
+      <a:_numberOfBoardsLower>23</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>23</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>11</a:_impsLower>
+      <a:_impsUpper>15</a:_impsUpper>
+      <a:_numberOfBoardsLower>23</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>23</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>16</a:_impsLower>
+      <a:_impsUpper>20</a:_impsUpper>
+      <a:_numberOfBoardsLower>23</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>23</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>21</a:_impsLower>
+      <a:_impsUpper>27</a:_impsUpper>
+      <a:_numberOfBoardsLower>23</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>23</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>28</a:_impsLower>
+      <a:_impsUpper>34</a:_impsUpper>
+      <a:_numberOfBoardsLower>23</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>23</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>35</a:_impsLower>
+      <a:_impsUpper>42</a:_impsUpper>
+      <a:_numberOfBoardsLower>23</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>23</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>43</a:_impsLower>
+      <a:_impsUpper>52</a:_impsUpper>
+      <a:_numberOfBoardsLower>23</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>23</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>53</a:_impsLower>
+      <a:_impsUpper>64</a:_impsUpper>
+      <a:_numberOfBoardsLower>23</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>23</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>65</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>23</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>23</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>24</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>24</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>5</a:_impsUpper>
+      <a:_numberOfBoardsLower>24</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>24</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>6</a:_impsLower>
+      <a:_impsUpper>10</a:_impsUpper>
+      <a:_numberOfBoardsLower>24</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>24</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>11</a:_impsLower>
+      <a:_impsUpper>15</a:_impsUpper>
+      <a:_numberOfBoardsLower>24</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>24</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>16</a:_impsLower>
+      <a:_impsUpper>21</a:_impsUpper>
+      <a:_numberOfBoardsLower>24</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>24</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>22</a:_impsLower>
+      <a:_impsUpper>27</a:_impsUpper>
+      <a:_numberOfBoardsLower>24</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>24</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>28</a:_impsLower>
+      <a:_impsUpper>34</a:_impsUpper>
+      <a:_numberOfBoardsLower>24</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>24</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>35</a:_impsLower>
+      <a:_impsUpper>43</a:_impsUpper>
+      <a:_numberOfBoardsLower>24</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>24</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>44</a:_impsLower>
+      <a:_impsUpper>53</a:_impsUpper>
+      <a:_numberOfBoardsLower>24</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>24</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>54</a:_impsLower>
+      <a:_impsUpper>65</a:_impsUpper>
+      <a:_numberOfBoardsLower>24</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>24</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>66</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>24</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>24</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>25</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>25</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>6</a:_impsUpper>
+      <a:_numberOfBoardsLower>25</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>25</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>7</a:_impsLower>
+      <a:_impsUpper>11</a:_impsUpper>
+      <a:_numberOfBoardsLower>25</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>25</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>12</a:_impsLower>
+      <a:_impsUpper>16</a:_impsUpper>
+      <a:_numberOfBoardsLower>25</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>25</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>17</a:_impsLower>
+      <a:_impsUpper>21</a:_impsUpper>
+      <a:_numberOfBoardsLower>25</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>25</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>22</a:_impsLower>
+      <a:_impsUpper>28</a:_impsUpper>
+      <a:_numberOfBoardsLower>25</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>25</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>29</a:_impsLower>
+      <a:_impsUpper>35</a:_impsUpper>
+      <a:_numberOfBoardsLower>25</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>25</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>36</a:_impsLower>
+      <a:_impsUpper>44</a:_impsUpper>
+      <a:_numberOfBoardsLower>25</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>25</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>45</a:_impsLower>
+      <a:_impsUpper>54</a:_impsUpper>
+      <a:_numberOfBoardsLower>25</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>25</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>55</a:_impsLower>
+      <a:_impsUpper>67</a:_impsUpper>
+      <a:_numberOfBoardsLower>25</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>25</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>68</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>25</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>25</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>26</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>26</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>6</a:_impsUpper>
+      <a:_numberOfBoardsLower>26</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>26</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>7</a:_impsLower>
+      <a:_impsUpper>11</a:_impsUpper>
+      <a:_numberOfBoardsLower>26</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>26</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>12</a:_impsLower>
+      <a:_impsUpper>16</a:_impsUpper>
+      <a:_numberOfBoardsLower>26</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>26</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>17</a:_impsLower>
+      <a:_impsUpper>22</a:_impsUpper>
+      <a:_numberOfBoardsLower>26</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>26</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>23</a:_impsLower>
+      <a:_impsUpper>28</a:_impsUpper>
+      <a:_numberOfBoardsLower>26</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>26</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>29</a:_impsLower>
+      <a:_impsUpper>36</a:_impsUpper>
+      <a:_numberOfBoardsLower>26</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>26</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>37</a:_impsLower>
+      <a:_impsUpper>45</a:_impsUpper>
+      <a:_numberOfBoardsLower>26</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>26</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>46</a:_impsLower>
+      <a:_impsUpper>55</a:_impsUpper>
+      <a:_numberOfBoardsLower>26</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>26</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>56</a:_impsLower>
+      <a:_impsUpper>68</a:_impsUpper>
+      <a:_numberOfBoardsLower>26</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>26</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>69</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>26</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>26</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>27</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>27</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>6</a:_impsUpper>
+      <a:_numberOfBoardsLower>27</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>27</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>7</a:_impsLower>
+      <a:_impsUpper>11</a:_impsUpper>
+      <a:_numberOfBoardsLower>27</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>27</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>12</a:_impsLower>
+      <a:_impsUpper>16</a:_impsUpper>
+      <a:_numberOfBoardsLower>27</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>27</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>17</a:_impsLower>
+      <a:_impsUpper>22</a:_impsUpper>
+      <a:_numberOfBoardsLower>27</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>27</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>23</a:_impsLower>
+      <a:_impsUpper>29</a:_impsUpper>
+      <a:_numberOfBoardsLower>27</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>27</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>30</a:_impsLower>
+      <a:_impsUpper>37</a:_impsUpper>
+      <a:_numberOfBoardsLower>27</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>27</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>38</a:_impsLower>
+      <a:_impsUpper>45</a:_impsUpper>
+      <a:_numberOfBoardsLower>27</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>27</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>46</a:_impsLower>
+      <a:_impsUpper>56</a:_impsUpper>
+      <a:_numberOfBoardsLower>27</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>27</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>57</a:_impsLower>
+      <a:_impsUpper>69</a:_impsUpper>
+      <a:_numberOfBoardsLower>27</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>27</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>70</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>27</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>27</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>28</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>28</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>6</a:_impsUpper>
+      <a:_numberOfBoardsLower>28</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>28</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>7</a:_impsLower>
+      <a:_impsUpper>11</a:_impsUpper>
+      <a:_numberOfBoardsLower>28</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>28</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>12</a:_impsLower>
+      <a:_impsUpper>17</a:_impsUpper>
+      <a:_numberOfBoardsLower>28</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>28</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>18</a:_impsLower>
+      <a:_impsUpper>23</a:_impsUpper>
+      <a:_numberOfBoardsLower>28</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>28</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>24</a:_impsLower>
+      <a:_impsUpper>29</a:_impsUpper>
+      <a:_numberOfBoardsLower>28</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>28</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>30</a:_impsLower>
+      <a:_impsUpper>37</a:_impsUpper>
+      <a:_numberOfBoardsLower>28</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>28</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>38</a:_impsLower>
+      <a:_impsUpper>46</a:_impsUpper>
+      <a:_numberOfBoardsLower>28</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>28</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>47</a:_impsLower>
+      <a:_impsUpper>57</a:_impsUpper>
+      <a:_numberOfBoardsLower>28</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>28</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>58</a:_impsLower>
+      <a:_impsUpper>71</a:_impsUpper>
+      <a:_numberOfBoardsLower>28</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>28</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>72</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>28</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>28</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>29</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>29</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>6</a:_impsUpper>
+      <a:_numberOfBoardsLower>29</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>29</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>7</a:_impsLower>
+      <a:_impsUpper>11</a:_impsUpper>
+      <a:_numberOfBoardsLower>29</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>29</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>12</a:_impsLower>
+      <a:_impsUpper>17</a:_impsUpper>
+      <a:_numberOfBoardsLower>29</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>29</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>18</a:_impsLower>
+      <a:_impsUpper>23</a:_impsUpper>
+      <a:_numberOfBoardsLower>29</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>29</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>24</a:_impsLower>
+      <a:_impsUpper>30</a:_impsUpper>
+      <a:_numberOfBoardsLower>29</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>29</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>31</a:_impsLower>
+      <a:_impsUpper>38</a:_impsUpper>
+      <a:_numberOfBoardsLower>29</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>29</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>39</a:_impsLower>
+      <a:_impsUpper>47</a:_impsUpper>
+      <a:_numberOfBoardsLower>29</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>29</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>48</a:_impsLower>
+      <a:_impsUpper>58</a:_impsUpper>
+      <a:_numberOfBoardsLower>29</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>29</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>59</a:_impsLower>
+      <a:_impsUpper>72</a:_impsUpper>
+      <a:_numberOfBoardsLower>29</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>29</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>73</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>29</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>29</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>1</a:_impsUpper>
+      <a:_numberOfBoardsLower>30</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>30</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>2</a:_impsLower>
+      <a:_impsUpper>6</a:_impsUpper>
+      <a:_numberOfBoardsLower>30</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>30</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>7</a:_impsLower>
+      <a:_impsUpper>11</a:_impsUpper>
+      <a:_numberOfBoardsLower>30</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>30</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>12</a:_impsLower>
+      <a:_impsUpper>17</a:_impsUpper>
+      <a:_numberOfBoardsLower>30</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>30</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>18</a:_impsLower>
+      <a:_impsUpper>23</a:_impsUpper>
+      <a:_numberOfBoardsLower>30</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>30</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>24</a:_impsLower>
+      <a:_impsUpper>31</a:_impsUpper>
+      <a:_numberOfBoardsLower>30</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>30</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>32</a:_impsLower>
+      <a:_impsUpper>39</a:_impsUpper>
+      <a:_numberOfBoardsLower>30</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>30</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>40</a:_impsLower>
+      <a:_impsUpper>48</a:_impsUpper>
+      <a:_numberOfBoardsLower>30</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>30</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>49</a:_impsLower>
+      <a:_impsUpper>59</a:_impsUpper>
+      <a:_numberOfBoardsLower>30</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>30</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>60</a:_impsLower>
+      <a:_impsUpper>73</a:_impsUpper>
+      <a:_numberOfBoardsLower>30</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>30</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>74</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>30</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>30</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>2</a:_impsUpper>
+      <a:_numberOfBoardsLower>31</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>31</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>3</a:_impsLower>
+      <a:_impsUpper>7</a:_impsUpper>
+      <a:_numberOfBoardsLower>31</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>31</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>8</a:_impsLower>
+      <a:_impsUpper>12</a:_impsUpper>
+      <a:_numberOfBoardsLower>31</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>31</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>13</a:_impsLower>
+      <a:_impsUpper>17</a:_impsUpper>
+      <a:_numberOfBoardsLower>31</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>31</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>18</a:_impsLower>
+      <a:_impsUpper>24</a:_impsUpper>
+      <a:_numberOfBoardsLower>31</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>31</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>25</a:_impsLower>
+      <a:_impsUpper>31</a:_impsUpper>
+      <a:_numberOfBoardsLower>31</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>31</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>32</a:_impsLower>
+      <a:_impsUpper>39</a:_impsUpper>
+      <a:_numberOfBoardsLower>31</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>31</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>40</a:_impsLower>
+      <a:_impsUpper>49</a:_impsUpper>
+      <a:_numberOfBoardsLower>31</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>31</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>50</a:_impsLower>
+      <a:_impsUpper>60</a:_impsUpper>
+      <a:_numberOfBoardsLower>31</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>31</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>61</a:_impsLower>
+      <a:_impsUpper>74</a:_impsUpper>
+      <a:_numberOfBoardsLower>31</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>31</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>75</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>31</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>31</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>0</a:_impsLower>
+      <a:_impsUpper>2</a:_impsUpper>
+      <a:_numberOfBoardsLower>32</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>32</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>10</a:_pointsLoser>
+      <a:_pointsWinner>10</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>3</a:_impsLower>
+      <a:_impsUpper>7</a:_impsUpper>
+      <a:_numberOfBoardsLower>32</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>32</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>9</a:_pointsLoser>
+      <a:_pointsWinner>11</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>8</a:_impsLower>
+      <a:_impsUpper>12</a:_impsUpper>
+      <a:_numberOfBoardsLower>32</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>32</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>8</a:_pointsLoser>
+      <a:_pointsWinner>12</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>13</a:_impsLower>
+      <a:_impsUpper>18</a:_impsUpper>
+      <a:_numberOfBoardsLower>32</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>32</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>7</a:_pointsLoser>
+      <a:_pointsWinner>13</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>19</a:_impsLower>
+      <a:_impsUpper>24</a:_impsUpper>
+      <a:_numberOfBoardsLower>32</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>32</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>6</a:_pointsLoser>
+      <a:_pointsWinner>14</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>25</a:_impsLower>
+      <a:_impsUpper>32</a:_impsUpper>
+      <a:_numberOfBoardsLower>32</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>32</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>5</a:_pointsLoser>
+      <a:_pointsWinner>15</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>33</a:_impsLower>
+      <a:_impsUpper>40</a:_impsUpper>
+      <a:_numberOfBoardsLower>32</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>32</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>4</a:_pointsLoser>
+      <a:_pointsWinner>16</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>41</a:_impsLower>
+      <a:_impsUpper>50</a:_impsUpper>
+      <a:_numberOfBoardsLower>32</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>32</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>3</a:_pointsLoser>
+      <a:_pointsWinner>17</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>51</a:_impsLower>
+      <a:_impsUpper>61</a:_impsUpper>
+      <a:_numberOfBoardsLower>32</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>32</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>2</a:_pointsLoser>
+      <a:_pointsWinner>18</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>62</a:_impsLower>
+      <a:_impsUpper>76</a:_impsUpper>
+      <a:_numberOfBoardsLower>32</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>32</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>1</a:_pointsLoser>
+      <a:_pointsWinner>19</a:_pointsWinner>
+    </a:Points>
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>77</a:_impsLower>
+      <a:_impsUpper>999</a:_impsUpper>
+      <a:_numberOfBoardsLower>32</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>32</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>0</a:_pointsLoser>
+      <a:_pointsWinner>20</a:_pointsWinner>
+    </a:Points>
+  </_vpTable>
+</BridgeItScoreCalculationXMLReaderWriter.Container>

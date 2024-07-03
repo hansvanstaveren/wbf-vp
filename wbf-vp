@@ -1,0 +1,209 @@
+#!/usr/bin/perl -w
+
+# Implementation of WBF VP algorithm
+
+#
+# Parameters for calculation:
+# midpoint = number of VP's for draw. In current scale it is 10
+# decimals is number of decimals for calculation. Currently 2
+$midpoint = 10;
+$decimals = 2;
+
+$nboardslow = 6;
+$nboardshigh = 32;
+
+# Fundamental constant
+$R = sqrt(5)-2;
+
+sub blitz {
+    my ($nboards) = @_;
+
+    return 15*sqrt($nboards);
+}
+
+sub vmap {
+    my ($I, $V0, $X) = @_;
+
+    my $exponent = $I/$X;
+    return $V0+$V0*((1-$R**$exponent)/(1-$R));
+}
+
+sub imap {
+    my ($V, $V0, $X) = @_;
+
+    my $logarg = 1 - (1- $R)*($V/$V0 -1);
+    return $X*log($logarg)/log($R);
+}
+
+sub diff {
+    my (@ar) = @_;
+    my (@dar);
+
+    for my $i (0..$#ar-1) {
+	$dar[$i] = $ar[$i+1] - $ar[$i];
+    }
+    return @dar;
+}
+
+sub xmlentry {
+    my($impl, $impu, $nb, $vplose, $vpwin) = @_;
+
+    $xentry = <<ENDENTRY;
+    <a:Points i:type="a:NBBVP">
+      <a:_impsLower>$impl</a:_impsLower>
+      <a:_impsUpper>$impu</a:_impsUpper>
+      <a:_numberOfBoardsLower>$nb</a:_numberOfBoardsLower>
+      <a:_numberOfBoardsUpper>$nb</a:_numberOfBoardsUpper>
+      <a:_pointsLoser>$vplose</a:_pointsLoser>
+      <a:_pointsWinner>$vpwin</a:_pointsWinner>
+    </a:Points>
+ENDENTRY
+    return $xentry;
+}
+
+if ($#ARGV >= 0) {
+    my ($mp, $nbl, $nbh) = @ARGV;
+    $midpoint = $mp;
+    if (defined($nbl)) {
+	$nboardslow = $nbl;
+	$nboardshigh = defined($nbh) ? $nbh : $nboardslow;
+    }
+}
+
+open SHEETC, ">sheet-cont.csv" || die;
+open SHEETD, ">sheet-disc.csv" || die;
+open SHEETXC, ">sheetc.xml" || die;
+open SHEETXD, ">sheetd.xml" || die;
+
+$xheader = <<ENDHEADER;
+<BridgeItScoreCalculationXMLReaderWriter.Container xmlns="http://schemas.datacontract.org/2004/07/ScoreCalculationDataservingImplementation" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <_maxImps>999</_maxImps>
+  <_maxNumberOfBoards>$nboardshigh</_maxNumberOfBoards>
+  <_minImps>0</_minImps>
+  <_minNumberOfboards>$nboardslow</_minNumberOfboards>
+  
+  <_vpTable xmlns:a="http://schemas.datacontract.org/2004/07/ScoreCalculationTypes">
+ENDHEADER
+
+$xtrailer = <<ENDTRAILER;
+  </_vpTable>
+</BridgeItScoreCalculationXMLReaderWriter.Container>
+ENDTRAILER
+print SHEETXC $xheader;
+print SHEETXD $xheader;
+
+#
+# next lines in case of fractional number of boards
+# only one will work, otherwise range of int's
+#
+@brdrange = ($nboardslow);
+if ($nboardslow != $nboardshigh) {
+    @brdrange = ($nboardslow..$nboardshigh);
+}
+
+for $nb (@brdrange) {
+    my (@vptab, @itab);
+    my ($corrected);
+
+    my $b = blitz($nb);
+    my $cb = int($b+0.9999);
+
+    print "blitz: $nb $b\n";
+
+    #
+    # Continuous scale
+    #
+
+    for my $imp (0..$cb-1) {
+	my $vp = vmap($imp, $midpoint, $b);
+	my $rvp = int(10**$decimals*$vp+0.5);
+	$vptab[$imp] = $rvp;
+    }
+    $vptab[$cb] = 2*$midpoint*10**$decimals;
+
+    # Do continuous corrections
+
+    do {
+	$corrected = 0;
+	my @dd_ar = diff(diff(@vptab));
+	# print "dd_ar @dd_ar\n";
+	for my $i (0..$#dd_ar) {
+	    if ($dd_ar[$i] > 0) {
+		# Concavity violation
+		# print "Concavity violation table $nb\@$i\n";
+		$vptab[$i+1]++;
+		$corrected++;
+		last;
+	    }
+	}
+    } while ($corrected);
+
+    # end of continous corrections
+
+    print SHEETC "$nb";
+    for my $imp (0..$cb) {
+	printf SHEETC ",%.${decimals}f", $vptab[$imp]/10**$decimals;
+	# printf "%5d %6.2f\n", $imp, $vptab[$imp]/100;
+
+	# XML sheet
+	my $vpwin = $vptab[$imp];
+	my $vplose = 200*$midpoint - $vpwin;
+	my $impl = $imp;
+	my $impu = $imp==$cb ? 999 : $impl;
+	$xentry = xmlentry($impl, $impu, $nb, $vplose, $vpwin);
+	print SHEETXC $xentry;
+
+    }
+    print SHEETC "\n";
+
+    #
+    # Discrete scale
+    #
+
+    for my $e (0..$midpoint-1) {
+	my $v = 0.5 + $midpoint + $e;
+	my $imps = int(imap($v, $midpoint, $b));
+	# print "Discrete $v becomes $imps\n";
+	$itab[$e] = $imps;
+    }
+
+    # Do discrete corrections
+
+    do {
+	$corrected = 0;
+	my @dd_itab = diff(diff(-($itab[0]+1), @itab));
+	# print "ddi: @dd_itab\n";
+	for my $i (0..$#dd_itab) {
+	    if ($dd_itab[$i] < 0) {
+		# Concavity violation
+		# print "Discrete concavity violation table $nb\@$i\n";
+		$itab[$i]--;
+		$corrected++;
+		last;
+	    }
+	}
+    } while ($corrected);
+    # print "corrected itab: @itab\n";
+
+    print SHEETD "$nb";
+    for my $v (0..$midpoint-1) {
+	print SHEETD ",$itab[$v]";
+    }
+    print SHEETD "\n";
+
+    my $impbase = 0;
+    for my $v (0..$midpoint) {
+	$imp = $v==$midpoint ? 999 : $itab[$v];
+	$xentry = xmlentry($impbase, $imp, $nb, $midpoint-$v, $midpoint+$v);
+	print SHEETXD $xentry;
+	$impbase = $imp+1;
+    }
+}
+
+print SHEETXC $xtrailer;
+print SHEETXD $xtrailer;
+
+close SHEETC;
+close SHEETD;
+close SHEETXC;
+close SHEETXD;
