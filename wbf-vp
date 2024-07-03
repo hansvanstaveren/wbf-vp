@@ -6,6 +6,9 @@
 # Parameters for calculation:
 # midpoint = number of VP's for draw. In current scale it is 10
 # decimals is number of decimals for calculation. Currently 2
+#
+# If the WBF had decided for three decimals all the fuzzy stuff would have been unneeded
+#
 $midpoint = 10;
 $decimals = 2;
 
